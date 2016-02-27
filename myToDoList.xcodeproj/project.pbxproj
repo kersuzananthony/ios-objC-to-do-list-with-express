@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		DCBE63691C756F9400F42787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE63681C756F9400F42787 /* main.m */; };
 		DCBE636C1C756F9400F42787 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE636B1C756F9400F42787 /* AppDelegate.m */; };
-		DCBE636F1C756F9400F42787 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE636E1C756F9400F42787 /* ViewController.m */; };
+		DCBE636F1C756F9400F42787 /* ListToDoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE636E1C756F9400F42787 /* ListToDoVC.m */; };
 		DCBE63721C756F9400F42787 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBE63701C756F9400F42787 /* Main.storyboard */; };
 		DCBE63741C756F9400F42787 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBE63731C756F9400F42787 /* Assets.xcassets */; };
 		DCBE63771C756F9400F42787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBE63751C756F9400F42787 /* LaunchScreen.storyboard */; };
+		DCBE63801C7571E100F42787 /* ToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE637F1C7571E100F42787 /* ToDoItem.m */; };
+		DCBE63831C75731000F42787 /* ToDoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE63821C75731000F42787 /* ToDoCell.m */; };
+		DCBE63861C75882100F42787 /* AddToDoItemVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE63851C75882100F42787 /* AddToDoItemVC.m */; };
+		DCBE63891C758A2000F42787 /* HTTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE63881C758A2000F42787 /* HTTPService.m */; };
+		DCBE638C1C75AF7B00F42787 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCBE638B1C75AF7B00F42787 /* DetailVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,22 @@
 		DCBE63681C756F9400F42787 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DCBE636A1C756F9400F42787 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DCBE636B1C756F9400F42787 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DCBE636D1C756F9400F42787 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DCBE636E1C756F9400F42787 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCBE636D1C756F9400F42787 /* ListToDoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListToDoVC.h; sourceTree = "<group>"; };
+		DCBE636E1C756F9400F42787 /* ListToDoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListToDoVC.m; sourceTree = "<group>"; };
 		DCBE63711C756F9400F42787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCBE63731C756F9400F42787 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCBE63761C756F9400F42787 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DCBE63781C756F9400F42787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCBE637E1C7571E100F42787 /* ToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoItem.h; sourceTree = "<group>"; };
+		DCBE637F1C7571E100F42787 /* ToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoItem.m; sourceTree = "<group>"; };
+		DCBE63811C75731000F42787 /* ToDoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToDoCell.h; sourceTree = "<group>"; };
+		DCBE63821C75731000F42787 /* ToDoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToDoCell.m; sourceTree = "<group>"; };
+		DCBE63841C75882100F42787 /* AddToDoItemVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddToDoItemVC.h; sourceTree = "<group>"; };
+		DCBE63851C75882100F42787 /* AddToDoItemVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddToDoItemVC.m; sourceTree = "<group>"; };
+		DCBE63871C758A2000F42787 /* HTTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPService.h; sourceTree = "<group>"; };
+		DCBE63881C758A2000F42787 /* HTTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPService.m; sourceTree = "<group>"; };
+		DCBE638A1C75AF7B00F42787 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		DCBE638B1C75AF7B00F42787 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +73,13 @@
 		DCBE63661C756F9400F42787 /* myToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				DCBE63901C75F65300F42787 /* services */,
+				DCBE638F1C75F5CC00F42787 /* views */,
+				DCBE638E1C75F5C800F42787 /* models */,
+				DCBE638D1C75F5B800F42787 /* controllers */,
 				DCBE636A1C756F9400F42787 /* AppDelegate.h */,
 				DCBE636B1C756F9400F42787 /* AppDelegate.m */,
-				DCBE636D1C756F9400F42787 /* ViewController.h */,
-				DCBE636E1C756F9400F42787 /* ViewController.m */,
-				DCBE63701C756F9400F42787 /* Main.storyboard */,
 				DCBE63731C756F9400F42787 /* Assets.xcassets */,
-				DCBE63751C756F9400F42787 /* LaunchScreen.storyboard */,
 				DCBE63781C756F9400F42787 /* Info.plist */,
 				DCBE63671C756F9400F42787 /* Supporting Files */,
 			);
@@ -77,6 +92,48 @@
 				DCBE63681C756F9400F42787 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCBE638D1C75F5B800F42787 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE636D1C756F9400F42787 /* ListToDoVC.h */,
+				DCBE636E1C756F9400F42787 /* ListToDoVC.m */,
+				DCBE63841C75882100F42787 /* AddToDoItemVC.h */,
+				DCBE63851C75882100F42787 /* AddToDoItemVC.m */,
+				DCBE638A1C75AF7B00F42787 /* DetailVC.h */,
+				DCBE638B1C75AF7B00F42787 /* DetailVC.m */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		DCBE638E1C75F5C800F42787 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE637E1C7571E100F42787 /* ToDoItem.h */,
+				DCBE637F1C7571E100F42787 /* ToDoItem.m */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		DCBE638F1C75F5CC00F42787 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE63701C756F9400F42787 /* Main.storyboard */,
+				DCBE63751C756F9400F42787 /* LaunchScreen.storyboard */,
+				DCBE63811C75731000F42787 /* ToDoCell.h */,
+				DCBE63821C75731000F42787 /* ToDoCell.m */,
+			);
+			name = views;
+			sourceTree = "<group>";
+		};
+		DCBE63901C75F65300F42787 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				DCBE63871C758A2000F42787 /* HTTPService.h */,
+				DCBE63881C758A2000F42787 /* HTTPService.m */,
+			);
+			name = services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +206,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCBE636F1C756F9400F42787 /* ViewController.m in Sources */,
+				DCBE636F1C756F9400F42787 /* ListToDoVC.m in Sources */,
+				DCBE638C1C75AF7B00F42787 /* DetailVC.m in Sources */,
+				DCBE63861C75882100F42787 /* AddToDoItemVC.m in Sources */,
+				DCBE63831C75731000F42787 /* ToDoCell.m in Sources */,
 				DCBE636C1C756F9400F42787 /* AppDelegate.m in Sources */,
+				DCBE63801C7571E100F42787 /* ToDoItem.m in Sources */,
+				DCBE63891C758A2000F42787 /* HTTPService.m in Sources */,
 				DCBE63691C756F9400F42787 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
